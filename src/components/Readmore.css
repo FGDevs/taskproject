@@ -1,0 +1,8 @@
+.Hover {
+    font-size: 12px;
+}
+
+.Hover:hover {
+    cursor: pointer;
+    color:  rgb(255, 87, 87) !important;
+}

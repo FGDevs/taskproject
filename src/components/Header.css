@@ -1,0 +1,63 @@
+.css-nav-color{
+    background-color:transparent  !important;
+    position: fixed;
+    /* display: none; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    /* cursor: pointer; */
+
+}
+
+.css-nav-text {
+    color:white !important;
+}
+
+
+.css-text-option {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.css-icon-option {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.css-icon-account{
+    border: 1px white solid !important;
+    border-radius: 30px !important;
+}
+
+.dropdown-menu {
+    /* border: gray 2px solid; */
+    border: none;
+    text-align: right;
+    background-color: transparent;
+    min-width: 5rem;
+    transform: translate3d(-28px, 50px, 0px) !important;
+}
+.dropdown-item {
+    /* border: gray 2px solid; */
+    padding-right: 0;
+    width: 100%;
+}
+
+.dropdown-item:hover {
+    background-color:transparent;
+    transform: translate3d(-10px, 0px, 0px) !important;  
+}
+
+.css-dropdown-select {
+    color:white !important;
+}
+
+.css-dropdown-select:hover {
+    color:rgb(255, 251, 23) !important;
+}
+
+

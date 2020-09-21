@@ -1,0 +1,62 @@
+.abcd{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5) 30%, rgba(231,231,231,0) 100%) !important;
+}
+
+.carousel-indicators {
+    z-index: 0;
+  }
+
+
+.carousel-control-prev  {
+    position: absolute;
+    left: 3%; 
+}
+
+.carousel-control-next{
+    position: absolute;
+    left: 6%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: flex;
+    justify-content: center;
+    width: 3%;
+}
+
+.carousel-caption {
+    position: fixed;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    columns: row;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    justify-content: center;
+    left: 15%;
+    height:100vh;
+    z-index: 0;
+}
+
+.css-showmore {
+    /* border: 2px gray solid; */
+    position: absolute;
+    display: flex;
+    bottom: 9%;
+    left: 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.css-showmore-btn {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.css-showmore-btn:hover {
+    cursor: pointer;
+    width: 200px;
+}
