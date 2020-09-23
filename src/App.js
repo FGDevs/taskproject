@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Switch , Route } from "react-router-dom";
-import Home from './pages/home'
-import Admin from './pages/admin'
-import Login from './pages/login'
+import { Home , Admin , Login } from "./pages";
 
 
 function App() {
