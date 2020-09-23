@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import './home.css'
-import BootstrapCarousel from '../../components/BootstrapCarousel.jsx'
 import Header from '../../components/Header.jsx'
-// import Admin from '../admin'
-// import Login from '../login'
+import './home.css'
 
 
 class Home extends Component {
@@ -11,9 +8,7 @@ class Home extends Component {
       return(
         <div>
           <Header />
-          <BootstrapCarousel />
-          {/* <Admin />
-          <Login /> */}
+        
         </div>
       ) 
     }

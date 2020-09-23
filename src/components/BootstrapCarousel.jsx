@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 // import ReactDOM from 'react-dom'  
 import { MdNavigateNext } from "react-icons/md";
-import './BootstrapCarousel.css';
+import './css/BootstrapCarousel.css';
 import Axios from 'axios';
 
 

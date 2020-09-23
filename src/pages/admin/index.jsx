@@ -232,10 +232,10 @@ class Admin extends Component {
           <Modal isOpen={this.state.modaledit} toggle={this.toggleedit}>
             <ModalHeader toggle={this.toggleedit} close={this.closeBtnedit}> Edit Trip </ModalHeader>
             <ModalBody>
-              <label> Edit Trip Title </label>
+              {/* <label> Edit Trip Title </label>
               <div>
                 <input type='text' defaultValue={this.state.Product[this.state.indexedit].nametrip} placeholder='Insert New Trip Title' />
-              </div>
+              </div> */}
               {/* <label> Illustrasi Photo </label>
               <div>
                 <input type='text' ref={this.state.photo} defaultValue={this.state.Product[index].nametrip} placeholder='Insert Trip Documentation Photo' />
