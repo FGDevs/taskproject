@@ -2,62 +2,50 @@
   "users": [
     {
       "id": 1,
-      "username": "dino",
-      "password": "abcd",
-      "role": "user"
+      "username"    : "dino",
+      "password"    : "abcd",
+      "role"        : "user"
     },
     {
       "id": 2,
-      "username": "admin",
-      "password": "root",
-      "role": "admin"
-    },
-    {
-      "username": "raka",
-      "password": "geograFi06-",
-      "role": "user",
-      "id": 3
-    },
-    {
-      "username": "fitrakadev",
-      "password": "gamedeV06-",
-      "role": "user",
-      "id": 4
+      "username"    : "admin",
+      "password"    : "root",
+      "role"        : "admin"
     }
   ],
+  
   "products": [
     {
-      "nametrip": "Bekantan's Week",
-      "photos": "https://images.unsplash.com/photo-1551297189-89c17799f830?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      "startdate": 1600473600000,
-      "enddate": 1600992000000,
-      "seat": 28,
-      "price": "21000000",
-      "regdate": 1600473600000,
-      "desc": "Feel the wild of Kalimantan's Jungle. Release your wild adventure dreams with us!",
-      "id": 1
-    },
-    {
-      "nametrip": "Japan's Night",
-      "photos": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-      "startdate": 1600992000000,
-      "enddate": 1601164800000,
-      "seat": 28,
-      "price": "47200000",
-      "regdate": 1600992000000,
-      "desc": "Living daily life at night time only with our 'Special Trip' to Japan. An event that held once per 4 years! You don't wanna miss it. Go grab your seat now!",
-      "id": 2
-    },
-    {
-      "nametrip": "Ubisoft Visit",
-      "photos": "https://www.nme.com/wp-content/uploads/2020/07/Assassins-Creed-Valhalla-696x442.jpg",
-      "startdate": 1601251200000,
-      "enddate": 1601424000000,
-      "seat": 28,
-      "price": "80000000",
-      "regdate": 1601251200000,
-      "desc": "Join our special yearly event, GDOV 4th. This year, Ubisoft gonna be our chosen game dev office that we will visit. So join us! ",
-      "id": 3
+      "model"       : "Galaxy M31",
+      "brandId"     : 1,
+      "yearId"      : 1,
+      "price"       : "3999000",
+      "specId"      : 1
     }
-  ]
+  ],
+
+    "brands": [
+      {
+        "name"      : "Apple"
+      },
+      {
+        "name"      : "Samsung"
+      }
+    ],
+
+    "specs": [
+      {
+        "keyspecId" :1
+      }
+    ],
+
+      "keyspecs": [
+        {
+          "ramId":1,
+          "processorId":1,
+          "rearcamera":"64 MP + 8 MP + 5 MP + 5 MP",
+          "frotncamera":"32 MP",
+
+        }
+      ]
 }

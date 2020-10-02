@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import './css/Header.css'
-import { logoicons } from "../assets";
+import React, {  } from 'react';
+import './Header.css'
+import { logoicons } from "../../assets";
 
 
 function Header() {

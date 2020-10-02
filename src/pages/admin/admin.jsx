@@ -6,7 +6,7 @@ import { BiCalendar , BiListUl , BiSupport , BiMessageSquareEdit} from "react-ic
 import { BsTools } from "react-icons/bs";
 import Logo from '../../assets/logo-icons-black.png'
 import { API_URL , dateFormatter, priceFormatter } from "../../helpers/helper";
-import { Readmore } from "../../components/Readmore";
+import { Readmore } from "../../components";
 import Axios from 'axios';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 

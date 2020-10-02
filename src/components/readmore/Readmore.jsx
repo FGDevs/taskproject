@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/Readmore.css'
+import './Readmore.css'
 
 
 // const [indexReadmore, setindexReadmore] = useState(0)
@@ -19,7 +19,7 @@ function renderReadmore (kata='') {
     )
 }
 
-export function Readmore(kata='' ) {
+export default function Readmore(kata='' ) {
     var perkata = kata.split(' ')
     var bataskata = 10
     var outputkata = ''
